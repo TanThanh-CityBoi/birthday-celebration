@@ -5,12 +5,12 @@ import BirthdayCard from './components/BirthdayCard';
 import EditPanel from './components/EditPanel';
 
 const DEFAULT_MESSAGE =
-  `Chúc em một ngày sinh nhật thật vui vẻ và hạnh phúc! 🌸\nMong em luôn rạng rỡ như những bông hoa mùa xuân,\ntràn đầy sức sống và niềm vui trong từng khoảnh khắc.\n\nEm xứng đáng nhận được tất cả những điều tuyệt vời\nmà cuộc sống có thể mang lại! 💖✨\n\nMãi yêu em nhé! 🎂🎉`;
+  `Happy Birthday muộn nè 🎂🎉 \n\nHơi trễ một chút nhưng lời chúc thì vẫn nguyên vẹn. Mong Trang luôn vui vẻ, xinh đẹp rạng rỡ, gặp nhiều may mắn và có thật nhiều điều khiến bạn mỉm cười mỗi ngày nha. Tuổi mới cứ hạnh phúc thật nhiều nhé ❤️`;
 
 export default function App() {
-  const [name, setName] = useState('Người Yêu Thương');
+  const [name, setName] = useState('Trang Trang');
   const [message, setMessage] = useState(DEFAULT_MESSAGE);
-  const [sender, setSender] = useState('Người Yêu Bạn');
+  const [sender, setSender] = useState('Người bạn mới quen nè hh');
   const [editing, setEditing] = useState(false);
 
   return (

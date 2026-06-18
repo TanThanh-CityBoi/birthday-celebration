@@ -185,7 +185,7 @@ export default function BirthdayCard({ name, message, sender }: Props) {
           }}
         >
           <span style={{ fontSize: 'clamp(12px, 2vw, 15px)', color: '#9d174d', fontStyle: 'italic' }}>
-            Với tình yêu thương từ
+            
           </span>
           <span
             style={{
